@@ -33,7 +33,7 @@ class Login extends Component{
                 <div className='form'>
                     <input type='text' placeholder='E-mail' onChange={ (e) => this.setState({email: e.target.value}) } />
                     <input type='text' placeholder='Senha' onChange={ (e) => this.setState({senha: e.target.value}) } />
-                    <button onClick={this.submit}>Salvar</button>
+                    <button onClick={this.submit}>Login</button>
                 </div>
             </div>
         );
